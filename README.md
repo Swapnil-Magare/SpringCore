@@ -48,73 +48,52 @@ Welcome to this project showcasing various **Dependency Injection (DI)** techniq
 - **Technologies Used**: Spring Framework, Annotations, XML.  
 - **Purpose**: To demonstrate flexibility and power of DI configurations in modern Java applications.  
 
----
+#
 
 # 🌟 **README: Revolutionizing Dependency Injection Configurations**
 
 Welcome to the **Ultimate Dependency Injection Showcase**! This project explores modern, efficient, and hybrid approaches to configuring Dependency Injection (DI) in a Java ecosystem.
 
----
-
 ## 🚀 **Features at a Glance**
 
-### 🔥 **1. Pure Annotation Config (Zero XML)**
+### 🔥 **Pure Annotation Config (Zero XML)**
 - **What**: End-to-end DI using only annotations.
 - **How**: Employs setter and constructor injection without any XML.
 - **Why**: For cleaner, modern Java configurations.
 - **Status**: ✅ Fully implemented.
 
----
-
-### 🛠️ **2. IOC Containers at Work**
+### 🛠️ **IOC Containers at Work**
 - **What**: Centralized management of bean lifecycles.
 - **How**: Configured to create, manage, and destroy beans dynamically.
 - **Why**: Simplifies dependency management.
 - **Status**: 🎉 Operational.
 
----
-
-### 🔄 **3. Setter Dependency Injection**
+### 🔄 **Setter Dependency Injection**
 - **What**: Dependencies injected via setters.
 - **How**: Public methods expose the DI entry points.
 - **Why**: For optional or reconfigurable dependencies.
 - **Status**: ✔️ Functional.
 
----
-
-### 🏗️ **4. Constructor Dependency Injection**
+### 🏗️ **Constructor Dependency Injection**
 - **What**: Dependencies passed directly via constructors.
 - **How**: Enforced during object creation.
 - **Why**: Ensures mandatory dependencies.
 - **Status**: 🚦 Configured and tested.
 
----
-
-### ⏳ **5. Lifecycle Hooks: PostConstruct & PreDestroy**
+### ⏳ **Lifecycle Hooks: PostConstruct & PreDestroy**
 - **What**: Leverages lifecycle annotations to automate initialization and cleanup.
   - `@PostConstruct`: Setup logic after bean creation.
   - `@PreDestroy`: Cleanup before bean destruction.
 - **Why**: To ensure seamless resource management.
 - **Status**: 🏁 Successfully implemented.
 
----
-
-### 🧩 **6. XML & Annotation Fusion**
+### 🧩 **XML & Annotation Fusion**
 - **What**: Combines XML flexibility with annotation simplicity.
 - **How**: Critical beans configured via XML, enriched with annotations.
 - **Why**: To balance legacy and modern approaches.
 - **Status**: ✅ Operational.
 
----
-
-### ✨ **7. Annotation-Exclusive Configuration**
-- **What**: DI solely through annotations for all methods.
-- **How**: No XML or external configurations.
-- **Why**: Simplifies codebase and improves maintainability.
-- **Status**: 🌟 Successfully implemented.
-
----
-
+#
 ## 📖 **Quick Start Guide**
 
 1. **Clone the Repository**
@@ -125,7 +104,4 @@ Welcome to the **Ultimate Dependency Injection Showcase**! This project explores
 2. Run the application using your preferred Java IDE or build tool.  
 3. Observe logs for initialization and DI implementation details.  
 
-## 🖼️ **Visuals**
-- Include a diagram showing the lifecycle of DI containers, from initialization to destruction.  
-- Add code snippets or screenshots of configuration files (XML or annotated classes).  
 
