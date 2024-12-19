@@ -98,7 +98,7 @@ Welcome to the **Ultimate Dependency Injection Showcase**! This project explores
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/dependency-injection-showcase.git
+   git clone https://github.com/Swapnil-Magare/SpringCore.git
 ## 📖 **How to Use**
 1. Clone the repository.  
 2. Run the application using your preferred Java IDE or build tool.  
