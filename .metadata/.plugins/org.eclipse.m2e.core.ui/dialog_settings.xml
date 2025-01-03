@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Swapnil\eclipse-workspace\SpringCore\6NoXmlAnnotationBased"/>
+			<item value="C:\Users\Swapnil\eclipse-workspace\SpringCore\5XmlandAnnotation"/>
+			<item value="C:\Users\Swapnil\eclipse-workspace\SpringCore\4PostConstruct_Pre_Destroy"/>
+			<item value="C:\Users\Swapnil\eclipse-workspace\SpringCore\3Constructor_Dependency_injection"/>
+			<item value="C:\Users\Swapnil\eclipse-workspace\SpringCore\2Setter_Dependency_Injection"/>
+			<item value="C:\Users\Swapnil\eclipse-workspace\SpringCore\1IOC_containers"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

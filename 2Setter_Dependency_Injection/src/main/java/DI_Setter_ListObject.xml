@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	<bean id="sub1" class="ListObjectSetter.Subject">
+		<property name="name" value="JAVA"></property>
+		<property name="days" value="39"></property>
+	</bean>
+	
+	<bean id="sub2" class="ListObjectSetter.Subject">
+		<property name="name" value="JAVA"></property>
+		<property name="days" value="39"></property>
+	</bean>
+
+	<bean id="StudentObject" class="ListObjectSetter.Student">
+		<property name="name" value="Swapnil"></property>
+		<property name="Subjects">
+			<list>
+				<ref bean="sub1" />
+				<ref bean="sub2" />
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

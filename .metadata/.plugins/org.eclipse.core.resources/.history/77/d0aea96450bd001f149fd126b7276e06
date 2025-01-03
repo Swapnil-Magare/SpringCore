@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	<!-- Dependency Injection : Injecting list of Object using Constructor -->
+	<bean id="sub1" class="listObjectConstructor.Subject">
+		<constructor-arg value="Java"></constructor-arg>
+		<constructor-arg value="60"></constructor-arg>
+	</bean>
+	
+	<bean id="sub2" class="listObjectConstructor.Subject">
+		<constructor-arg value="HTML"></constructor-arg>
+		<constructor-arg value="20"></constructor-arg>
+	</bean>
+	
+	<bean id="sub3" class="ListObjectConstructor.Subject">
+		<constructor-arg value="SERvlet"></constructor-arg>
+		<constructor-arg value="40"></constructor-arg>
+	</bean>
+	
+	<bean id="sub4" class="ListObjectConstructor.Subject">
+		<constructor-arg value="SQL"></constructor-arg>
+		<constructor-arg value="69"></constructor-arg>
+	</bean>
+
+	<bean id="StudentObject" class="ListObjectConstructor.Student">
+		<constructor-arg value="smmmer"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<ref bean="sub1" />
+				<ref bean="sub2" />
+				<ref bean="sub3" />
+				<ref bean="sub4" />
+			</list>
+		</constructor-arg>
+	</bean>
+
+
+</beans>
